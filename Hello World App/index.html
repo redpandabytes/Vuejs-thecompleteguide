@@ -1,15 +1,20 @@
-<html>
-    <head>
-        <title>Hi</title>
-        <script src="https://unpkg.com/vue@2.5.16/dist/vue.js"></script>
-    </head>
-    <body>
-        <div id="app">
-            <input type="text" v-on:input="changeTitle" />
-            <p>
-                {{ title }}
-            </p>
-        </div>
-        <script src="app.js"></script>
-    </body>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>VueJS</title>
+</head>
+<body>
+    <div id="app">
+        <input type="text" v-on:input="changeTitle" />
+        <p>
+            {{ title }}
+        </p>
+    </div>
+    <script src="vue.js"></script>
+    <script src="app.js"></script>
+</body>
 </html>

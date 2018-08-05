@@ -3,7 +3,7 @@ new Vue({
     data: {
         title: "Hello World!",
         link: "http://google.com",
-        finishedLink: '<a href="http://google.com"></a>'
+        finishedLink: '<a href="http://google.com">Google</a>'
     },
     methods: {
         sayHello(){

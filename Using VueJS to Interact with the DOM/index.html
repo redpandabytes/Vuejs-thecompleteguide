@@ -12,7 +12,7 @@
         <h1 v-once> {{ title }}</h1>
         <p>{{ sayHello() }} - <a v-bind:href="link">Google</a></p>
         <hr>
-        <p>{{ finishedLink }}</p>
+        <p v-html="finishedLink"></p>
     </div>
     <script src="vue.js"></script>
     <script src="app.js"></script>

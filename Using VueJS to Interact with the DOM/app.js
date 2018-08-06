@@ -13,6 +13,9 @@ new Vue({
         updateCoordinates(e) {
             this.x = event.clientX;
             this.y = event.clientY;
+        },
+        alertMe() {
+            alert("aaa!");
         }
     }
 });
